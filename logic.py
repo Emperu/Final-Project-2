@@ -81,7 +81,6 @@ class Logic(object):
                                  "Invalid input. Please enter a number between 1 and 4.")  # Add these lines
             return
 
-        # remove any existing lineEdits and labels
         for lineEdit, label in zip(self.ui.scoreLineEdits, self.ui.scoreLabels):
             lineEdit.deleteLater()
             label.deleteLater()
